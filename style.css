@@ -7,6 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-x: hidden;
 }
 
 .container {
@@ -85,7 +86,7 @@ input {
         width: 90%;          /* Take full width */
         max-width: 200px;     /* Prevents it from becoming too large */
         min-width: 200px;     /* Prevents shrinking too small */
-        padding: 15px;        /* Slightly reduced padding for small screens */
+        padding: 15px;       /* Slightly reduced padding for small screens */
     }
 
     input {
