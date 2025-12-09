@@ -72,41 +72,42 @@ input {
     font-size: 12px;
 }
 
+/* ------------------------- */
+/* 📱 Mobile Devices (0px–480px) */
+/* ------------------------- */
 @media (max-width: 480px) {
+
+    body {
+        padding: 0 15px; /* Prevents container from touching screen edges */
+    }
+
     .container {
-        width: 70%;
-        padding: 10px;
+        width: 90%;          /* Take full width */
+        max-width: 200px;     /* Prevents it from becoming too large */
+        min-width: 200px;     /* Prevents shrinking too small */
+        padding: 15px;        /* Slightly reduced padding for small screens */
     }
 
     input {
-        font-size: 12px;
+        font-size: 10px;
         padding: 10px;
     }
 
     .btn {
-        font-size: 15px;
+        width: 100%;
+        font-size: 13px;
         padding: 10px;
     }
 
     h2 {
         font-size: 18px;
     }
-}
 
-/* ------------------------- */
-/* 📱 Tablets (481px to 768px) */
-/* ------------------------- */
-@media (min-width: 481px) and (max-width: 768px) {
-    .container {
-        width: 250px;
-        padding: 30px;
+    .forgot {
+        font-size: 10px;
     }
 
-    input, .btn {
-        font-size: 16px;
-    }
-
-    h2 {
-        font-size: 22px;
+    .link {
+        font-size: 10px;
     }
 }
