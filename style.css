@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: url("images.jpg") no-repeat center center/cover;
+    background: url("image.jpg") no-repeat center center/cover;
     font-family: Arial, sans-serif;
     height: 100vh;
     display: flex;
