@@ -71,3 +71,42 @@ input {
     margin-top: 10px;
     font-size: 12px;
 }
+
+@media (max-width: 480px) {
+    .container {
+        width: 70%;
+        padding: 10px;
+    }
+
+    input {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .btn {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+
+/* ------------------------- */
+/* 📱 Tablets (481px to 768px) */
+/* ------------------------- */
+@media (min-width: 481px) and (max-width: 768px) {
+    .container {
+        width: 250px;
+        padding: 30px;
+    }
+
+    input, .btn {
+        font-size: 16px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+}
